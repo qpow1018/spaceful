@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 import Providers from "./providers";
 
-import "./globals.css";
+import "@/assets/scss/reset.scss";
+import "@/assets/scss/global.scss";
 
 export const metadata: Metadata = {
   title: "Spaceful",

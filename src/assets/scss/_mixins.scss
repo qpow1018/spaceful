@@ -1,0 +1,10 @@
+@use "./variables" as *;
+
+@mixin line-clamp($lines: 1) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  line-clamp: $lines;
+  word-break: break-word;
+}
