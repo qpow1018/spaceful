@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
+
 import Providers from "./providers";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Spaceful",
-  description: "성능 개선 연습 프로젝트",
+  description: "",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
