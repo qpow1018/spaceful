@@ -1,6 +1,8 @@
+@use "../assets/scss/variables" as *;
+
 .main {
   display: grid;
-  min-height: 100dvh;
+  min-height: calc(100dvh - $header-height);
   place-content: center;
   gap: 8px;
   padding: 24px;
