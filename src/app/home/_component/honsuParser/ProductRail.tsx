@@ -7,8 +7,7 @@ import type { TPlace } from "@/api/services/home/type";
 import homeQuery from "@/queries/homeQuery";
 import { useHorizontalScrollDrag } from "@/utils/hooks/useHorizontalScrollDrag";
 
-// TODO: 공용 Icon 시스템을 확인한 뒤 ChevronRight 아이콘을 복원한다.
-// import Icon from "@/components/common/icons/Icon";
+import Icon from "@/components/common/icons/Icon";
 
 import styles from "./productRail.module.scss";
 
@@ -92,7 +91,7 @@ export default function ProductRail({ config }: { config: TProductRailConfig }) 
         <div className={styles["benefit-cta-wrap"]} onClick={handleBenefitClick}>
           <div className={styles["benefit-cta"]}>
             <p className={styles["benefit-text"]}>{config.benefitCta}</p>
-            {/* TODO: 공용 Icon 시스템을 확인한 뒤 ChevronRight 아이콘을 복원한다. */}
+            <Icon name="ChevronRight" size={18} color="currentColor" />
           </div>
         </div>
       )}
@@ -102,7 +101,7 @@ export default function ProductRail({ config }: { config: TProductRailConfig }) 
           <button type="button" className={styles["more-btn"]} onClick={handleMoreClick}>
             {config.moreLabel || "더보기"}
             <span className={styles["icon-box"]}>
-              {/* TODO: 공용 Icon 시스템을 확인한 뒤 ChevronRight 아이콘을 복원한다. */}
+              <Icon name="ChevronRight" size={18} />
             </span>
           </button>
         </div>
