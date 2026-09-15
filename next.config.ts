@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  sassOptions: {
+    additionalData: `
+      @use "@/assets/scss/variables" as *;
+      @use "@/assets/scss/mixins" as *;
+    `,
+  },
 };
 
 export default nextConfig;
