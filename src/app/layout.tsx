@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import styles from "./Layout.module.scss";
+import styles from "./layout.module.scss";
 import Providers from "./providers";
 
 import "@/assets/scss/reset.scss";

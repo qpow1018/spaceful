@@ -39,6 +39,7 @@ Spaceful 프론트엔드 코드를 작성하거나 수정할 때 다음 규칙�
 ## SCSS Modules
 
 - 컴포넌트 스타일은 `*.module.scss`로 작성한다.
+- SCSS Module 파일명은 lower camel case로 작성한다. 예: `PartnerDetail.tsx`의 스타일 파일은 `partnerDetail.module.scss`로 둔다.
 - SCSS Module은 `styles`라는 이름으로 import한다.
 - 클래스명은 kebab-case로 작성한다.
 - 클래스는 `styles['class-name']` 형식으로 접근한다.
