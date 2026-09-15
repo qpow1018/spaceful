@@ -1,19 +1,18 @@
-.header {
+.home-header {
   border-bottom: 1px solid $gray-100;
   background-color: $white;
-}
 
-.inner {
-  display: flex;
-  align-items: center;
-  height: $header-height;
-  padding-inline: 20px;
-}
+  &-inner {
+    display: flex;
+    align-items: center;
+    height: $header-height;
+    padding-inline: 20px;
+  }
 
-.wordmark {
-  color: $gray-900;
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: -0.8px;
-  line-height: 1;
+  &-wordmark {
+    color: $gray-900;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+  }
 }

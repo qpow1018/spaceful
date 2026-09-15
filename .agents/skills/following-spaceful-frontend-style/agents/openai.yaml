@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Spaceful 프론트엔드 스타일'
+  short_description: 'Spaceful 프론트엔드 코드 스타일을 적용합니다'
+  default_prompt: 'Use $following-spaceful-frontend-style to apply the Spaceful frontend conventions to this change.'
