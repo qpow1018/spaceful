@@ -1,37 +1,67 @@
+// Base
 $white: #fff;
 $black: #000;
 
-$red-100: #faddda;
-$red-400: #ee6857;
-$red-500: #f53f29;
-$red-600: #c62c1a;
+// Gray
+$gray-100: #f7f5f2;
+$gray-200: #e8e3dc;
+$gray-300: #d0c8c0;
+$gray-400: #a49a91;
+$gray-500: #786f68;
+$gray-600: #5a534d;
+$gray-700: #403a35;
+$gray-800: #302c28;
+$gray-900: #24211f;
 
-$gray-0: #fafafa;
-$gray-30: #f7f7f7;
-$gray-50: #f2f2f2;
-$gray-100: #eaeaea;
-$gray-200: #dedede;
-$gray-300: #c8c8c8;
-$gray-400: #a6a6a6;
-$gray-500: #8a8a8a;
-$gray-600: #737373;
-$gray-700: #505050;
-$gray-800: #323232;
-$gray-900: #191919;
+// Coral
+$coral-100: #fff0eb;
+$coral-200: #ffdcd2;
+$coral-300: #fcb6a3;
+$coral-400: #e98168;
+$coral-500: #d4573c;
+$coral-600: #b9432c;
+$coral-700: #953323;
+$coral-800: #74271c;
+$coral-900: #451610;
 
-$blue-500: #3b6ae3;
-$green-500: #2cad5a;
+// Green
+$green-100: #e4f4ec;
+$green-200: #cae8da;
+$green-300: #9fd5b9;
+$green-400: #6eb992;
+$green-500: #3a936e;
+$green-600: #19725a;
+$green-700: #145a48;
+$green-800: #104638;
+$green-900: #0a2b24;
 
-$shadow-100: 0 4px 20px rgba(0, 0, 0, 0.04);
-$shadow-200: 0 4px 12px rgba(0, 0, 0, 0.08);
-$shadow-300: 0 4px 16px rgba(0, 0, 0, 0.08);
+// Text
+$text-primary: $gray-900;
+$text-secondary: $gray-600;
+$text-muted: $gray-500;
 
-$mobile-max-width: 600px;
-$header-height: 56px;
-$bottom-nav-height: 55px;
+// Background
+$bg-overlay: rgba(0, 0, 0, 0.5);
 
+// Size
+// $page-width: 1024px;
+// $page-wide-width: 1440px;
+// $header-height: 56px;
+// $modal-header-height: 48px;
+// $task-table-cell-height: 38px;
+// $task-table-cell-width: 132px;
+// $task-table-label-cell-width: 124px;
+// $loa-summary-label-cell-width: 140px;
+
+// Common
+// $font-family: var(--font-noto-sans-kr), sans-serif;
+// $border-radius: 6px;
+// $shadow-popover: 0 8px 16px rgba(0, 0, 0, 0.3);
+// $transition: 0.25s ease;
+
+// Z-index
+$z-index-popover: 10;
 $z-index-header: 100;
-$z-index-modal-overlay: 200;
-$z-index-modal: 201;
-$z-index-fixed-loading: 300;
+$z-index-modal: 200;
+$z-index-loading: 300;
 $z-index-toast: 400;
