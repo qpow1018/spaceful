@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "swiper/css";
 
 import styles from "./layout.module.scss";
 import Providers from "./providers";
