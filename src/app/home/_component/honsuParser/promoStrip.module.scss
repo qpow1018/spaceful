@@ -1,0 +1,13 @@
+.promo-strip-component {
+  .image-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
