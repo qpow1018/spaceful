@@ -1,4 +1,4 @@
-import styles from "./HomeHeader.module.scss";
+import styles from "./homeHeader.module.scss";
 
 export default function HomeHeader() {
   return (
