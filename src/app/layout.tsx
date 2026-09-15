@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import styles from "./Layout.module.scss";
 import Providers from "./providers";
 
 import "@/assets/scss/reset.scss";
@@ -14,7 +15,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko">
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className={styles["app-layout"]}>{children}</div>
+        </Providers>
       </body>
     </html>
   );
